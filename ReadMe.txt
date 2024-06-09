@@ -1,5 +1,5 @@
 ***Session 1
-I implemented the first project requirement wich is the user authentication service . My method was mostly 
+I implemented the first project requirement which is the user authentication service . My method was mostly 
 based on conditional loops to keep waiting for a specific user input in order to move to the next "part" of
 the menu. I decide to go with this idea(conditional loops) for implementing the signup, login and logout
 logics because of its similarity to real world example, where a failure to login would cause the web page 
@@ -11,12 +11,12 @@ statement instead of conditional logic. I will be moving on next time to the pro
 ***Session 2
 I created the ProductManagementService Class that handels products. I decided to keep the category choices 
 simple with only 3 possibilities. Different methods such as "isProductredundant" and "verifref" where 
-implemented to ensure no duplicates where made. Considering error handlinf when interacting with the menu 
+implemented to ensure no duplicates where made. Considering error handling when interacting with the menu, 
 it's still not set in place (MismatchExceptions must be added to avoid crashing when the program is presented
 with an unexpected value) 
 ***Session3
 -Session ended with the project finished
--Error Handling mechanism were added in the form of try and catch loops arounf every input that might prompt 
+-Error Handling mechanism were added in the form of try and catch statements around every input that might prompt 
 the User to enter an unexpected result
 -Discount and promotion feature was chosen. promotions are selected randomly and displayed in the Menu for the 
 customer. Discount is only used when placing orders with a specefic code
